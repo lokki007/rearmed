@@ -1,0 +1,28 @@
+version 2
+active 1
+seed 5151
+difficulty 3
+lives 3
+floor 2
+skulls 0
+cards 
+kills 0
+time 0
+result none
+offer 
+map 0.0
+rerolls 0
+character 0
+act 1
+infloor 1
+node_type fight
+node_map q3dm7
+node_bots 2
+node_frags 99
+node_mutator 0
+node_skill 1.00
+node_tier 0
+node_floor 3
+node_layer 2
+node_index 0
+node_variant VARIANT

@@ -1,0 +1,48 @@
+# REARMED local history: our source, tools, docs and own generated assets only.
+# Never tracked: id Software / Team Arena data (and anything derived from it),
+# the player's personal files, builds, test installs, release outputs.
+
+# --- the player's game homes and every test home (configs, saves, records, screenshots)
+/home/
+/home_*/
+
+# --- builds, installs and outputs
+/dist/
+/dist_*/
+/build_pk3/
+/build_test/
+/release/
+/release_test/
+/ioq3/build/
+*.pk3
+*.zip
+*.log
+
+# --- id / Team Arena content and derived data
+/assets_ta/
+/maps/src/q3dm*
+/maps/src/*_converted.map
+/maps/work/
+/maps_build/
+*.bsp
+*.aas
+*.prt
+*.srf
+
+# --- promo media (big binaries, regenerate with tools/clip_*.sh)
+/promo/clips/*.mp4
+/promo/clips/*.jpg
+/promo/clips/*.png
+
+# --- misc
+/backup/
+__pycache__/
+*.pyc
+.q3lock
+
+# upstream ioquake3 history (moved out of ioq3/ so this repo can track the engine source);
+# diff against upstream: git --git-dir=.ioq3-upstream.git --work-tree=ioq3 diff
+/.ioq3-upstream.git/
+
+# hit-feel arm-less skins: generated from the player's own installed skins (tools/make_hitfeel_assets.py)
+/assets/models/players/*/upper_*_hf*.skin

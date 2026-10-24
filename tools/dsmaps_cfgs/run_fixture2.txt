@@ -1,0 +1,21 @@
+version 2
+active 1
+seed 777
+difficulty 3
+diff_start 3
+diff_min 3
+diff_max 3
+lives 3
+floor 4
+skulls 20
+cards 2,57
+kills 21
+time 400000
+result win
+offer
+map 0.0.1.0
+rerolls 0
+character 5
+act 1
+infloor 0
+ds_played 0,21,5,3

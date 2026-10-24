@@ -1,0 +1,10 @@
+version 1
+skulls 10
+runs 4
+best_kills 198
+total_kills 388
+total_floors 30
+best_floor_3 15
+up_damage 3
+best_floor_4 1
+up_health 4

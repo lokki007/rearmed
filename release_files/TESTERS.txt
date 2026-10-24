@@ -1,0 +1,30 @@
+REARMED 0.6.1-beta - notes for testers
+======================================
+
+Thanks for playing. What helps most, in this order:
+
+1. DOES IT START?
+   Unzip, run "Play REARMED.bat". If anything goes wrong before the main menu
+   (setup can't find Quake III, a crash, a black screen), tell us what you saw.
+
+2. PLAY ONE DESCENT FOR 30-60 MINUTES
+   Main menu > DESCENT > NEW DESCENT. Play until you die or reach the first boss.
+   Then tell us:
+     - Was the first boss (THE BUTCHER) fair? Too easy, too hard, how many tries?
+     - Did you understand what to do on each floor without reading anything?
+     - What was the most fun moment? The most annoying one?
+     - Did you find a vault (a secret bonus floor)? Which mode was it?
+
+3. ANYTHING BROKEN
+   A crash, a bot stuck in a wall, a menu you couldn't leave, text you couldn't
+   read, a sound that's too loud.
+
+HOW TO SEND A REPORT
+   Write a few lines and attach these two files from the REARMED folder:
+     home\rearmed\games.log      (what happened in the game)
+     home\rearmed\qconsole.log   (errors, if there are any)
+   Screenshots: F12 in game, saved in home\rearmed\screenshots\.
+   Your PC: Windows version, graphics card, screen resolution.
+
+Nothing is sent anywhere by the game. These files stay on your PC until you
+send them.

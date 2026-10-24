@@ -1,0 +1,28 @@
+version 2
+active 0
+seed 424242
+difficulty 4
+lives 0
+floor 14
+skulls 312
+banked 312
+kills 241
+time 3912000
+cards 0,3,6,10,14,15,40
+character 6
+startcards 0
+pv 2,0,3,0,1,0,4,0,2,0,0,0,0
+wl 0,3,5,2,0,8,4,6,0,0,0,0,0,7
+evo 2064
+dmg 0,820,4310,2210,0,15880,5320,6210,0,0,0,0,0,7400
+wkills 0,4,18,9,0,96,24,31,0,0,0,0,0,52
+wtime 0,61000,402000,190000,0,1450000,380000,512000,0,0,0,0,0,690000
+st 241,88,4,57,31,9,2,7,2,38,1840,42150,3912000,14,15,2,3,34
+fst 12,3,0,12,1,1,0,1,0,3,140,3020,241000,0,15,0,0,2
+fseq 15
+fastest 71000
+cause Outfragged by Visor, 15 to 12, on q3dm9
+lastdeath Visor's RAILGUN
+result loss
+new_best_floor 0
+new_best_kills 1

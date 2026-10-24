@@ -1,0 +1,26 @@
+REARMED promo clips (2026-10-05). H.264 High, yuv420p, 30 fps, no audio, +faststart; poster JPEG next to each clip.
+Recorded with ioquake3's own `video` command (cl_aviFrameRate 30, MJPEG) from demos played back in the isolated
+test install (dist_clips + home_clips, opengl2 + rearmed_gfx.cfg, cg_horPlus 1, FOV 95), encoded with ffmpeg.
+Loops: hero_killcam / movement / gore_props / intro dissolve their last 8-9 frames into the first ones; the four
+montages (altfire / descent_loot / evolutions / boss) loop on a hard cut. Total mp4+jpg: 8.7 MB.
+
+file | size KB | duration | resolution | caption
+hero_killcam.mp4 (+ .jpg) | 1161 + 104 | 5.6 s | 1920x540 (32:9) | A quad-damage railgun shot takes Sarge's head off; a HEADSHOT kill cam panel slides in at the right edge and replays the decapitation in slow motion while the main view turns and rails Doom too.
+altfire.mp4 (+ .jpg) | 1181 + 96 | 6.4 s | 1280x720 | Six alt-fires, one per second: a sticky grenade stuck to Sarge, rockets detonated mid-flight, a lightning chain arcing between three bots, an overcharged rail ricochet through two, a plasma whirlpool dragging bots in, and the BFG's triple spread.
+movement.mp4 (+ .jpg) | 924 + 108 | 3.1 s | 1280x720 | First person on The Arena Gate: slide, slide-jump into a wall run, kick off the wall, double jump and dash, then a zip line yanks you across the courtyard to the far wall.
+gore_props.mp4 (+ .jpg) | 982 + 103 | 4.3 s | 1280x720 | Machinegun the yellow gas tank and it vents and rockets into the air, a rocket blows the barrel next to Sarge and throws him, then the view drops to the bodies and blood pools left on the floor.
+descent_loot.mp4 (+ .jpg) | 915 + 104 | 5.2 s | 1280x720 | DESCENT: one rocket gibs four bots in a shower of xp gems, the VACUUM pulls every gem on the map into you, then the end-of-floor boss chest spins its five reels to a JACKPOT.
+evolutions.mp4 (+ .jpg) | 878 + 116 | 4.7 s | 1280x720 | Evolved weapons: HELLFIRE's salvo of three seeking rockets, DOOMSDAY's black hole dragging bots in before it bursts, and STORM CALLER's beam forking violet lightning to every enemy near the target.
+boss.mp4 (+ .jpg) | 958 + 101 | 3.3 s | 1280x720 | Boss floors: THE HOLLOW KING telegraphs three purple RAIL LANCES that then fire red, then THE BUTCHER marks a CLEAVER CHARGE lane and charges straight into you; boss bar, attack name and the lives roster up top.
+intro.mp4 (+ .jpg) | 811 + 98 | 3.7 s | 1280x720 | A DESCENT floor start: the versus strip slides in along the top edge, YOU vs the elite CRASH, SLASH, VISOR and your nemesis SARGE, with each one's threat line, while the fight starts below.
+
+Round 4 clips (2026-10-13, en-clips): same pipeline and format, all three loop on a hard cut. Recorded on the
+2026-10-13 14:17 build (dist_clips + home_clips refreshed from dist/ and build_pk3/). Scene cfgs come from
+tools/clip_gen/gen_r4.py (tools/clip_cfgs/r4_*.cfg, ds4_setup.cfg / ffa4_setup.cfg, run fixture tools/clip_gen/run_types2.txt;
+the boss uses tools/boss_fixtures/run_boss1.txt). Some beats play back with a longer lens (clip_view_fov60-85.cfg); the rest with clip_view_r4.cfg (gun drawn).
+Total new mp4+jpg: 2.8 MB.
+
+file | size KB | duration | resolution | caption
+enemy_types.mp4 (+ .jpg) | 982 + 102 | 6.9 s | 1280x720 | DESCENT's new enemy types: a SNIPER's red laser and glint, then its rail; a SHIELD bearer's hex shield eating machinegun fire from the front; a MEDIC's green beam healing a hurt bot; a KAMIKAZE glowing and blowing up; a BLINKER flashing from spot to spot; the JUGGERNAUT stomping in through rockets; then a champion pack's three gold pillars.
+dismember.mp4 (+ .jpg) | 792 + 97 | 5.3 s | 1280x720 | Hit feel: a rail headshot pops Sarge's head and the neck fountains, a machinegun burst tears Doom's arm off and it flies past, a gutshot drops a bot into a bleeding crawl, and a headshot slams a body into the wall in a burst of blood.
+timed_boss.mp4 (+ .jpg) | 818 + 85 | 5.8 s | 1280x720 | The timed 1v1 boss: THE BUTCHER under the boss bar and its clock, a phase-break roar that throws it back in a gem burst, the clock gone red at 0:21, the kill with SLAIN IN 4:43 and a ring of loot beams, then the floor tally with its TIME LEFT chip.

@@ -46,3 +46,5 @@ __pycache__/
 
 # hit-feel arm-less skins: generated from the player's own installed skins (tools/make_hitfeel_assets.py)
 /assets/models/players/*/upper_*_hf*.skin
+/promo/0.6.1/*.jpg
+/promo/0.6.1/*.mp4

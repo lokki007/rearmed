@@ -82,3 +82,6 @@ THE FINE PRINT
   made with the Windows speech voice and are for personal use only.
 
   Bugs: include home\rearmed\qconsole.log and games.log (see TESTERS.txt).
+
+  Source: https://github.com/lokki007/rearmed
+  REARMED stays free. To say thanks: https://xt3.gumroad.com/l/rearmed

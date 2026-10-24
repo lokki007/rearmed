@@ -84,7 +84,7 @@ that show their Windows user name, and let the player decide whether to remove t
 
 ## Modding and source
 
-REARMED is GPL v2 (`COPYING.txt`). The source is a separate download on the mod page. Building it needs
+REARMED is GPL v2 (`COPYING.txt`). The source is at https://github.com/lokki007/rearmed (`BUILDING.md`). Building it needs
 CMake and a C toolchain; the game code builds to QVM files packed in the mod pk3. If the player wants a
 change to how the game plays, start from the in-game switches (F10) and console variables before
 editing source. Changes to the source are theirs to share under the GPL.
